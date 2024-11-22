@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+h1, h2 {
+	font-family:"poppins", Sans-serif;
+}
+*:not(h1, h2) {
+	font-family:"Open Sans", Sans-serif;
+}
+header{
+width: 85%;
+margin:auto;
+padding: 50px 0px;
+}
+header img {
+	width:150px;
+}
+.try-it-btn{
+	display:inline-block;
+	padding:5px 15px;
+	text-decoration:none;
+	border: 1px solid hsl(322, 100%, 66%);
+	color:hsl(322, 100%, 66%);
+	border-radius: 20px;
+	padding: 10px 15px;
+	font-size: 0.8rem;
+}
+.build-communities {
+	width:85%;
+	margin:auto;
+	padding:70px 0px;
+	text-align:center;
+}
+.build-communities >h1{
+	font-size:2.2rem;
+	text-align:center;
+}
+.build-communities > p {
+	max-width:450px;
+	margin:20px auto;
+	font-size:0.9rem;
+}
+.get-started-btn{
+	display:inline-block;
+	padding:15px 35px;
+	color: #fff;
+	background-color: hsl(322, 100%, 66%);
+	border-radius:40px;
+	text-decoration: none;
+	font-weight: 600;
+	
+}
+.build-communities > img {
+	width:80%;
+	display:block;
+	margin: 50px auto;
+}
+.communities-messages {
+	width: 80%;
+	max-width: 750px;
+	margin: 0px auto 50px;
+	
+}
+.communities-messages h1 {
+	font-size: 4rem;
+}
+.communities-messages p {
+	text-align: center;
+	text-transform: capitalize;
+}
+.curved-section {
+	margin: 70px 0px;
+}
+.curved-section.bg div.flex {
+	background-color: hsl(207, 100%, 98%);
+}
+.curved-section div.flex {
+	padding: 20px 10%;
+}
+.curved-section div.flex > * {
+	width: 40%;
+}
+.curved-section > div:not(.flex) {
+	height: 170px;
+}
+.curved-section.bg > div:first-child {
+	background-image: url("images/bg-section-top-desktop-1.svg");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.curved-section.bg > div:last-child {
+	background-image: url("images/bg-section-bottom-desktop-1.svg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.curved-section h2 {
+	margin-bottom: 20px;
+}
+#user-section > div:first-child {
+	background-image: url("images/bg-section-top-desktop-2.svg");
+}
+#user-section > div:last-child {
+	background-image: url("images/bg-section-bottom-desktop-2.svg");
+}
+#last-sec-ready {
+  width:85%;
+  margin:auto;
+  text-align: center;
+  padding-bottom:200px;
+}
+ footer > div:not(.flex){
+	 height: 170px;
+	 background-repeat: no-repeat;
+	 background-size: 100%;
+	 background-image: url("images/bg-footer-top-desktop.svg");
+	 background-position: 0px 101%;
+ }
+.wa{
+	margin-bottom:30px;
+}
+footer > div.flex {
+	background-color: hsl(192, 100%, 9%);
+	color: hsl(207, 100%, 98%);
+	padding: 20px 100px 50px;
+	align-items: flex-start;
+}
+footer  > div.flex > div{
+	width: 40%;
+}
+footer > div.flex > div p{
+	font-size: .8rem;
+	max-width: 400px;
+}
+footer > div.flex > div * {
+	margin: 15px 0px;
+}
+footer div h2{
+	font-family: Poppins;
+	text-transform: uppercase;
+}
+footer p img{
+	width: 15px !important;
+	margin-right: 10px !important;
+	margin-bottom: -2px !important;
+}
+.brand span{
+	margin: 3px !important;
+}
+footer span.fa{
+	margin-right: 15px;
+	font-size: 1.6rem;
+}
+footer input{
+	padding: 5px;
+	margin-right: 25px;
+	min-width: 220px;
+}
+footer button{
+	padding: 5px 15px;
+	color: #fff;
+	background-color: hsl(322, 100%, 66%);
+	border: 1px solid hsl(322, 100%, 66%);
+	font-weight: 600;
+	font-size: 0.9em;
+	border-radius: 2px;
+}
+  @media screen and (max-width: 650px) {
+	  .flex:not(header) {
+		  flex-direction: column;
+	 }
+	  .flex:not(header) {
+		  width: 100%;
+	  }
+	  section.communities-messages h1 {
+		  text-align: center;
+	  }
+	  section.communities-messages article {
+		  margin:50px 0px;
+		  width: 200px; */
+	  }
+	  .build-communities-section { */
+		 padding: 50px 0px;
+    }
+    .curved-section div.flex > * {
+	 width: 100%;
+	 margin: 20px;
+	 text-align: center;
+   }
+    .curved-section.bg div.flex {
+	    flex-direction: column-reverse;
+   }
+     .curved-section.bg > div:first-child {
+	background-image: url("images/bg-section-top-mobile-1.svg");
+	}
+	 .curved-section.bg > div:last-child {
+	 background-image: url("images/bg-section-bottom-mobile-1.svg");
+	 }
+	 #user-section > div:first-child {
+	 background-image: url("images/bg-section-top-mobile-2.svg");
+    }
+      #user-section > div:last-child {
+	background-image: url("images/bg-section-bottom-mobile-2.svg");
+   }
+     footer > div:not(.flex) {
+	 background-image: url("images/bg-footer-top-mobile.svg");
+   }
+     footer  > div.flex{
+		 padding: 30px;
+	}
+    footer  > div.flex > div{
+	width: 100%;
+  }
+    footer input {
+		display: block;
+		width: 100px;
+  }
+  footer form {
+	  text-align: right;
+  }
+  footer > div.flex > div:not(form, button) {
+	  margin: unset;
+   }
+  }
